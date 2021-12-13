@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.parent-container{
+    border: 1px solid black;
+    width: 500px;
+    max-width: 100%;
+    position: relative;
+}
+.name-div{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+}
+.name-input{
+    border: none;
+    border-bottom: 2px solid black;
+    border-color: rgba(0, 0, 0, 0.6);
+    width: 440px;
+    font-size: 15pt;
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.6)
+}
+.email-div{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email-input{
+    border: none;
+    border-bottom: 2px solid black;
+    border-color: rgba(0, 0, 0, 0.6);
+    width: 440px;
+    font-size: 15pt;
+    padding-bottom: 15px;
+}
+.date {
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-top: 30px;
+  }
+  
+  .time{
+    margin-left: -18px;
+    margin-top: 10px;
+    margin-top: 30px;
+  }
+  
+  .month {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline:none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 50px;
+    border-bottom-width: thin;
+    margin-left: 150px;
+    text-align: center;
+  }
+  
+  .days{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline:none;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  .year{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline:none;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+  .hours {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline:none;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+    width: 50px;
+    margin-left: 150px;
+    text-align: center;
+  }
+  .minutes {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline:none;
+    padding-bottom: 10px;
+    width: 50px;
+    border-bottom-width: thin;
+    text-align: center;
+  }
+  #when {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding-bottom: 10px;
+    width: 50px;
+    text-align: center;
+    }.responsive-div{
+    display: flex;
+    justify-content: space-between;
+}
+.decrementBtn{
+    margin-left: 45px;
+    color: rgba(59, 23, 23);
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.number-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.counter{
+    margin-right: 5px;
+}
+.person-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.incrementBtn{
+    margin-right: 30px;
+    color: rgba(59, 23, 23);
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.live-div{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    margin-top: -12px;
+    width: 440px;
+    margin-left: 30px;
+}
+.reservationBtn{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #fff;
+    padding: 20px;
+    width: 440px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
